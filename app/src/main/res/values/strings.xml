@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyActivty</string>
+    <string name="move_activity">Klik</string>
+    <string name="move_with_data">Klik2</string>
+    <string name="dial_number">tomdial</string>
+    <string name="data_received">aa</string>
+</resources>
