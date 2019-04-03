@@ -11,6 +11,8 @@ class move_activity_with_data : AppCompatActivity() {
         setContentView(R.layout.activity_move_with_data)
         val nama=intent.getStringExtra("Username")
         val password=intent.getIntExtra("password",0)
-        tv_data_received.setText("User Name ="+ nama + ",\nPassword ="+password)
+        val alamat=intent.getStringExtra("Alamat")
+        val tgllahir=intent.getStringExtra("Tanggal Lahir")
+        tv_data_received.setText("User Name ="+ nama + ",\nPassword ="+password +",\nAlamat ="+alamat+",\nTanggal Lahir ="+tgllahir)
     }
 }

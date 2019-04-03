@@ -13,9 +13,8 @@
         </activity>
         <activity android:name=".MoviActivity">
         </activity>
-        <activity android:name=".MoveWithDataActivity">
-        </activity>
-        <activity android:name=".MoveActivity"/>
+
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
