@@ -4,4 +4,6 @@
     <string name="move_with_data">Klik2</string>
     <string name="dial_number">tomdial</string>
     <string name="data_received">aa</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="hello_world">camera</string>
 </resources>

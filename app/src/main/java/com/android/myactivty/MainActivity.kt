@@ -28,9 +28,12 @@ class MainActivity : AppCompatActivity() {
             val dialPhoneIntent = Intent(Intent.ACTION_DIAL, Uri.parse("tel:$phoneNumber"))
             startActivity(dialPhoneIntent)
         }
-
+        btn_move_activity_camera.setOnClickListener {
+            startActivity(Intent(this, CameraActivity::class.java))
+        }
+        }
     }
-}
+
 
 
 
